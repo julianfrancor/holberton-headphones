@@ -262,7 +262,7 @@ button:hover {
 
 .container-body {
   background-image: url(images/headphones_hero_1.jpg);
-  background-color: var(--color-navy);
+  background-size: cover;
   /* width: 100%; */
   /* background-size: cover; */
   background-position: center;
@@ -334,14 +334,12 @@ button:hover {
   flex-direction: column;
   justify-content: space-around;
   background-image: url(images/headphones_hero_2.jpg);
+  background-color: var(--color-navy);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  max-width: 1000px;
-  height: 80vh;
-  margin-right: auto;
-  /* max-width: 1400px; */
-  /* padding-top: 40px; */
+  height: auto;
+  padding-bottom: 300px;
 }
 
  
@@ -351,8 +349,9 @@ button:hover {
   font-family: var(--font-family-base);
   font-size: 32px;
   text-align: center;
+  padding-top: 120px;
 }
-/* .dark  .section-body .section-inner p.section-paragraph {
+.dark  .section-body .section-inner p.section-paragraph {
   color: var(--color-white);
   font-family: var(--font-family-base);
   font-size: 16px;
@@ -363,9 +362,9 @@ button:hover {
   padding-right: 120px;
   margin-bottom: 70px;
   margin-top: 50px;
-} */
- 
-/* .pentagon {
+} 
+
+.pentagon {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -377,7 +376,7 @@ button:hover {
   background-size: contain;
   width: 180px;
   height: 180px;
-} */
+}
  
 .pentagon .section-tagline {
   font-size: 46px;
