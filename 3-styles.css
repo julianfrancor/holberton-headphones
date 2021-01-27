@@ -392,16 +392,15 @@ button:hover {
   color: var(--color-white);
 }
 
-/* contact me section */
+/* contact us section */
 
 .contact-me {
   font-family: var(--font-family-base);
   color: var(--color-navy);
   background: var(--color-white);
   text-align: center;
-  padding-top: 1000px;
   width: 100%;
-  height: 80vh;
+  height: auto;
 }
  
 /* Grid
