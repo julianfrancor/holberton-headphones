@@ -402,6 +402,11 @@ button:hover {
   height: auto;
 }
 
+.contact-me div.form-group.col-1-2, 
+.contact-me div.form-group.col-2-3 {
+  text-align: left;
+}
+
 /* Grid
             ============================= */
 
@@ -663,6 +668,7 @@ nav .nav-link {
   .dark .section-paragraph {
     padding-left: 7vh;
   }
+
 }
 
 /* Responsive mobile ============================= */
