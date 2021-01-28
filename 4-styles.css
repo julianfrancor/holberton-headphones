@@ -554,8 +554,9 @@ ul.row-our {
 .header .menu-btn:checked + .menu-icon .navicon::after {
   top: 0;
 }
-/* Navbar
-                ============================= */
+
+/* Navbar  ============================= */
+
 .nav {
   margin: 0;
   padding: 0;
@@ -866,9 +867,7 @@ nav .nav-link {
   fill: var(--color-navy);
   color: var(--color-white);
   font-size: 30px;
-
 }
-
 
 @media (max-width: 480px) {
   .footer .row .footer-text {
@@ -913,12 +912,16 @@ nav .nav-link {
   .footer .row .footer-text {
     height: 0;
   }
- 
   
-  .footer .row .footer-logo, 
-  .footer ul.social.nav{
-    margin-bottom: 3px;
+  .footer .row {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 80%;
   }
+  
+  .footer 
 
 
   .footer .footer-logo{
@@ -929,6 +932,10 @@ nav .nav-link {
     align-items: center;
   }
   
+  .footer .footer-text {
+    height: 0;
+    padding-top: 30px;
+  }
 
   .footer {
     padding: 0;
